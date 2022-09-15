@@ -28,10 +28,7 @@
     &__search_wrapper {
         flex-grow: 1;
         margin-left: 20px;
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: space-between;
-        border: 1px solid blue;
+        // border: 1px solid blue;
     }
 }
 
@@ -59,5 +56,11 @@
     
     &:focus {
         border: 1px solid #c0def9;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .header-subtitle {
+        display: none;
     }
 }

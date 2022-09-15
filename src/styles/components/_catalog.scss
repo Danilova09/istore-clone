@@ -1,0 +1,43 @@
+@import '../main/variables';
+
+.catalog-block {
+    position: sticky;
+    width: 100%;
+    top: 49px;
+    height: 40px;
+    background: $activeColor;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    transition: 500ms;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &_inner {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon_wrapper {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 105%;
+        color: #fff;
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .catalog-block {
+        display: block;
+    }
+}
