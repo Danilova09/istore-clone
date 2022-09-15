@@ -1,0 +1,63 @@
+@import '../main/variables';
+
+.container-xl {
+    max-width: $containerXl-1140;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.header-subtitle {
+    padding: 10px 0 10px 0;
+    display: flex;
+
+    &__logo-img {
+        width: 80px;
+        height: auto;
+    }
+
+    &__list {
+        display: flex;
+        margin-left: 30px;
+        gap: 40px;
+        &-link {
+            font-size: 14px;
+            color: $secondTextColor;
+        }
+    }
+
+    &__search_wrapper {
+        flex-grow: 1;
+        margin-left: 20px;
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-between;
+        border: 1px solid blue;
+    }
+}
+
+.contacts,
+.working-hours {
+    color: $textDart;
+}
+
+.input-search {
+    width: 100%;
+    font-size: 15px;
+    flex-grow: 1;
+    outline: none;
+    height: 35px;
+    border-radius: 100px;
+    border: 1px solid #d2d2d2;
+    padding-left: 35px;
+    background: url('/src/assets/images/svg/search-icon.svg') no-repeat 10px center;
+    background-size: 21px auto;
+
+    &::placeholder {
+        color: $secondTextColor;
+        font-weight: 400;
+    }
+    
+    &:focus {
+        border: 1px solid #c0def9;
+    }
+}

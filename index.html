@@ -1,13 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="icon" type="image/svg+xml+png" href="./public/mac_os_application_apple_3783.png">
+    <link rel="stylesheet" href="./src/styles/style.scss">
+    <title>Магазин техники Apple - iStore</title>
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      <!-- Header start-->
+      <div class="header">
+        <div class="container-xl header-xl header_inner ">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">Главная</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">О нас</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">Продукция</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">Аксессуары</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">В кредит</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">Статьи</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__list-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__auth">
+            <a class="header__auth-link" href="#">
+              <img class="header__auth-img" src="./src/assets/images/svg/user-auth.svg" alt="user-auth">
+              <span class="header__auth-text">Авторизация</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-md header-lg">
+          <div class="header_inner">
+            <div class="header__burger"></div>
+            <div class="header__logo_wrapper">
+              <img class="header__logo-img" src="./src/assets/images/webp/istore-logo-light.webp" alt="istore_logo">
+            </div>
+            <div class="header__icons">
+              <div class="header__icon-search_wrapper">
+                <img src="./src/assets/images/svg/header-search-icon.svg" class="header__icon-search header__icon" />
+              </div>
+              <div class="header__icon-cart_wrapper">
+                <img src="./src/assets/images/svg/header-cart-icon.svg" class="header__icon-cart header__icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header end-->
+
+      <!-- Header subtitle start -->
+        <div class="header-subtitle container-xl">
+          <a class="header-subtitle__logo-link">
+            <img class="header-subtitle__logo-img" src="./src/assets/images/png/istore_logo.png" alt="istore_logo"/>
+          </a>
+          <ul class="header-subtitle__list">
+            <li class="header-subtitle__list-item">
+              <a class="header-subtitle__list-link" href="#">
+                <p class="header-subtitle__text">Магазин техники</p>
+                <p class="header-subtitle__text">Apple в Бишкеке</p>
+              </a>
+            </li>
+            <li class="header-subtitle__list-item">
+              <a class="header-subtitle__list-link" href="#">
+                <p class="header-subtitle__text">пр. Манаса, 40 (пер. ул. Киевская) </p>
+                <p class="header-subtitle__text working-hours">Пн - Вс  10:00 - 20:00</p>
+              </a>
+            </li>
+
+            <li class="header-subtitle__list-item">
+              <a class="header-subtitle__list-link contacts" href="#">
+                <p class="header-subtitle__text">+996 (555) 802 000 </p>
+                <p class="header-subtitle__text">+996 (505) 802 000</p>
+              </a>
+            </li>
+          </ul>
+          <div class="header-subtitle__search_wrapper">
+            <input class="input-search" type="search" placeholder="Поиск по всем категориям">
+          </div>
+        </div>
+      <!-- Header subtitle end-->
+
+    </div>
   </body>
+
 </html>
