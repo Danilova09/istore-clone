@@ -3,14 +3,12 @@
 .container-xl {
     max-width: $containerXl-1140;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .container-md {
     max-width: $containerMd-720;
     margin: 0 auto;
     padding: 0 15px;
-    border: 1px solid red;
 }
 
 .header-lg {
@@ -19,7 +17,6 @@
 
 .header {
     background: $headerBackground;
-    border: 1px solid red;
     padding: 10px 0 10px 0;
     position: inherit;
     top: 0;

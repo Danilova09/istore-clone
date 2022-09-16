@@ -1,0 +1,15 @@
+@import './variables';
+
+@mixin containerMd-720 () {
+    max-width: $containerMd-720;
+    margin: 0 auto;
+    padding: 0 15px;
+    // border: 1px solid red;
+}
+
+@mixin containerSm-576 () {
+    max-width: $containerSm-576;
+    margin: 0 auto;
+    padding: 0 15px;
+    // border: 1px solid red;
+}

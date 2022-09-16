@@ -3,7 +3,6 @@
 .container-xl {
     max-width: $containerXl-1140;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .header-subtitle {
@@ -28,7 +27,6 @@
     &__search_wrapper {
         flex-grow: 1;
         margin-left: 20px;
-        // border: 1px solid blue;
     }
 }
 
