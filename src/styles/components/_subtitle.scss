@@ -3,10 +3,13 @@
 .container-xl {
     max-width: $containerXl-1140;
     margin: 0 auto;
+    padding: 15px;
 }
 
 .header-subtitle {
     padding: 10px 0 10px 0;
+    // padding: 15px;
+
     display: flex;
 
     &__logo-img {
